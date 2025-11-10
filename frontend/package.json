@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for FullStack application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080",
+    "dev": "npx http-server . -p 8080 -o"
+  },
+  "keywords": [
+    "frontend",
+    "html",
+    "bootstrap"
+  ],
+  "author": "Oscar Montaña",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

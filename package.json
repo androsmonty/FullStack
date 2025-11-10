@@ -1,0 +1,27 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "A complete full-stack web application template",
+  "scripts": {
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && npm install",
+    "install-all": "npm run install-frontend && npm run install-backend",
+    "start-frontend": "cd frontend && npm start",
+    "start-backend": "cd backend && npm start",
+    "dev-frontend": "cd frontend && npm run dev",
+    "dev-backend": "cd backend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/androsmonty/FullStack.git"
+  },
+  "keywords": [
+    "fullstack",
+    "nodejs",
+    "express",
+    "bootstrap",
+    "web-application"
+  ],
+  "author": "Oscar Montaña",
+  "license": "MIT"
+}
